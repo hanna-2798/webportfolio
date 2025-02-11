@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12;
+}
+
+/* Landing Section Styles */
+.landing {
+    background-color: #40916c;
+    color: #fff;
+    height: 100vh;
+}
+
+.landing h1 {
+    font-size: 2.5rem;
+}
+
+.landing h3 {
+    font-size: 2rem;
+}
+
+/* Projects Styles */
+.projects {
+    background-color: #f6fff8;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #34495e;
+}
+
+.card-text {
+    color: #7f8c8d;
+}
+
+/* Hover Effect for Cards */
+.card:hover {
+    background-color: #a3b18a; 
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #a3b18a; 
+}
+
+.contact i {
+    color: #34495e;
+    transition: color 0.3s ease;
+}
+
+.contact i:hover {
+    color: #f39c12; 
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #3498db;
+    border-color: #2980b9;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9; 
+    border-color: #1c5986;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40
+    color: #fff
+}
+
+/* Tools Section */
+.tools {
+    background-color: #f6fff8;
+}
+
+.tools img {
+    transition: transform 0.3s ease;
+}
+
+.tools img:hover {
+    transform: scale(1.1)
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px); 
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation */
+h1, h2, h3 {
+  color: #2c3e50;
+  animation: moveText 2s ease-in-out infinite; 
+}
