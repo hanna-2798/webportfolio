@@ -25,6 +25,13 @@ h1, h2, h3 {
     color: #f39c12;
 }
 
+#myImage img {
+    width: 500px; /* Adjust the size of the profile image */
+    height: 400px; /* Ensure the height matches the width to keep the circle shape */
+    margin-top: 20px; /* Add margin at the top to avoid overlap with navbar */
+}
+
+
 /* Landing Section Styles */
 .landing {
     background-color: #40916c;
